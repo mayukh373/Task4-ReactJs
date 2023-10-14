@@ -1,0 +1,11 @@
+table :nth-child(2) td{
+    border-top: 2px solid white;
+}
+
+table :nth-child(2) :nth-child(-n+9) {
+    border-right: 2px solid #212529;    
+}
+
+table{
+    border: 2px solid white;
+}
